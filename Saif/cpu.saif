@@ -1,0 +1,680 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Thu Oct 01 02:18:21 2026")
+(VENDOR "Synopsys, Inc.")
+(PROGRAM_NAME "fsdb2saif")
+(VERSION "Verdi_Y-2026.03-SP2")
+(DIVIDER / )
+(TIMESCALE 1 ps)
+(DURATION 262000)
+(INSTANCE Testbench1
+  (NET
+    (clk
+      (T0 132000) (T1 130000) (TX 0)
+      (TC 52) (IG 0)
+    )
+    (rst_n
+      (T0 17000) (T1 245000) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (clutch_cambio
+      (T0 162000) (T1 100000) (TX 0)
+      (TC 20) (IG 0)
+    )
+    (palanca_de_cambio\[1\]
+      (T0 162000) (T1 100000) (TX 0)
+      (TC 20) (IG 0)
+    )
+    (palanca_de_cambio\[0\]
+      (T0 222000) (T1 40000) (TX 0)
+      (TC 8) (IG 0)
+    )
+    (segmentos_moore\[6\]
+      (T0 175000) (T1 87000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (segmentos_moore\[5\]
+      (T0 115000) (T1 147000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (segmentos_moore\[4\]
+      (T0 80000) (T1 182000) (TX 0)
+      (TC 6) (IG 0)
+    )
+    (segmentos_moore\[3\]
+      (T0 120000) (T1 142000) (TX 0)
+      (TC 6) (IG 0)
+    )
+    (segmentos_moore\[2\]
+      (T0 222000) (T1 40000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (segmentos_moore\[1\]
+      (T0 142000) (T1 120000) (TX 0)
+      (TC 2) (IG 0)
+    )
+    (segmentos_moore\[0\]
+      (T0 120000) (T1 142000) (TX 0)
+      (TC 6) (IG 0)
+    )
+    (segmentos_mealy\[6\]
+      (T0 190000) (T1 72000) (TX 0)
+      (TC 10) (IG 0)
+    )
+    (segmentos_mealy\[5\]
+      (T0 115000) (T1 147000) (TX 0)
+      (TC 10) (IG 0)
+    )
+    (segmentos_mealy\[4\]
+      (T0 85000) (T1 177000) (TX 0)
+      (TC 18) (IG 0)
+    )
+    (segmentos_mealy\[3\]
+      (T0 125000) (T1 137000) (TX 0)
+      (TC 18) (IG 0)
+    )
+    (segmentos_mealy\[2\]
+      (T0 212000) (T1 50000) (TX 0)
+      (TC 10) (IG 0)
+    )
+    (segmentos_mealy\[1\]
+      (T0 142000) (T1 120000) (TX 0)
+      (TC 6) (IG 0)
+    )
+    (segmentos_mealy\[0\]
+      (T0 125000) (T1 137000) (TX 0)
+      (TC 18) (IG 0)
+    )
+    (led_error
+      (T0 252000) (T1 10000) (TX 0)
+      (TC 2) (IG 0)
+    )
+  )
+  (INSTANCE uut
+    (NET
+      (clk
+        (T0 132000) (T1 130000) (TX 0)
+        (TC 52) (IG 0)
+      )
+      (rst_n
+        (T0 17000) (T1 245000) (TX 0)
+        (TC 3) (IG 0)
+      )
+      (clutch_cambio
+        (T0 162000) (T1 100000) (TX 0)
+        (TC 20) (IG 0)
+      )
+      (palanca_de_cambio\[1\]
+        (T0 162000) (T1 100000) (TX 0)
+        (TC 20) (IG 0)
+      )
+      (palanca_de_cambio\[0\]
+        (T0 222000) (T1 40000) (TX 0)
+        (TC 8) (IG 0)
+      )
+      (segmentos_moore\[6\]
+        (T0 175000) (T1 87000) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (segmentos_moore\[5\]
+        (T0 115000) (T1 147000) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (segmentos_moore\[4\]
+        (T0 80000) (T1 182000) (TX 0)
+        (TC 6) (IG 0)
+      )
+      (segmentos_moore\[3\]
+        (T0 120000) (T1 142000) (TX 0)
+        (TC 6) (IG 0)
+      )
+      (segmentos_moore\[2\]
+        (T0 222000) (T1 40000) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (segmentos_moore\[1\]
+        (T0 142000) (T1 120000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (segmentos_moore\[0\]
+        (T0 120000) (T1 142000) (TX 0)
+        (TC 6) (IG 0)
+      )
+      (segmentos_mealy\[6\]
+        (T0 190000) (T1 72000) (TX 0)
+        (TC 10) (IG 0)
+      )
+      (segmentos_mealy\[5\]
+        (T0 115000) (T1 147000) (TX 0)
+        (TC 10) (IG 0)
+      )
+      (segmentos_mealy\[4\]
+        (T0 85000) (T1 177000) (TX 0)
+        (TC 18) (IG 0)
+      )
+      (segmentos_mealy\[3\]
+        (T0 125000) (T1 137000) (TX 0)
+        (TC 18) (IG 0)
+      )
+      (segmentos_mealy\[2\]
+        (T0 212000) (T1 50000) (TX 0)
+        (TC 10) (IG 0)
+      )
+      (segmentos_mealy\[1\]
+        (T0 142000) (T1 120000) (TX 0)
+        (TC 6) (IG 0)
+      )
+      (segmentos_mealy\[0\]
+        (T0 125000) (T1 137000) (TX 0)
+        (TC 18) (IG 0)
+      )
+      (led_error
+        (T0 252000) (T1 10000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (estados_actuales\[3\]
+        (T0 107000) (T1 155000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (estados_actuales\[2\]
+        (T0 142000) (T1 120000) (TX 0)
+        (TC 4) (IG 0)
+      )
+      (estados_actuales\[1\]
+        (T0 115000) (T1 147000) (TX 0)
+        (TC 10) (IG 0)
+      )
+      (estados_actuales\[0\]
+        (T0 242000) (T1 20000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (estados_futuros\[3\]
+        (T0 107000) (T1 155000) (TX 0)
+        (TC 8) (IG 0)
+      )
+      (estados_futuros\[2\]
+        (T0 137000) (T1 125000) (TX 0)
+        (TC 16) (IG 0)
+      )
+      (estados_futuros\[1\]
+        (T0 125000) (T1 137000) (TX 0)
+        (TC 30) (IG 0)
+      )
+      (estados_futuros\[0\]
+        (T0 242000) (T1 20000) (TX 0)
+        (TC 2) (IG 0)
+      )
+      (clutch_activo
+        (T0 162000) (T1 100000) (TX 0)
+        (TC 20) (IG 0)
+      )
+    )
+    (INSTANCE in_mealy
+      (NET
+        (palanca_de_cambio\[1\]
+          (T0 162000) (T1 100000) (TX 0)
+          (TC 20) (IG 0)
+        )
+        (palanca_de_cambio\[0\]
+          (T0 222000) (T1 40000) (TX 0)
+          (TC 8) (IG 0)
+        )
+        (clutch_cambio
+          (T0 162000) (T1 100000) (TX 0)
+          (TC 20) (IG 0)
+        )
+        (estado_actual\[3\]
+          (T0 107000) (T1 155000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (estado_actual\[2\]
+          (T0 142000) (T1 120000) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (estado_actual\[1\]
+          (T0 115000) (T1 147000) (TX 0)
+          (TC 10) (IG 0)
+        )
+        (estado_actual\[0\]
+          (T0 242000) (T1 20000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (estado_siguiente\[3\]
+          (T0 107000) (T1 155000) (TX 0)
+          (TC 8) (IG 0)
+        )
+        (estado_siguiente\[2\]
+          (T0 137000) (T1 125000) (TX 0)
+          (TC 16) (IG 0)
+        )
+        (estado_siguiente\[1\]
+          (T0 125000) (T1 137000) (TX 0)
+          (TC 30) (IG 0)
+        )
+        (estado_siguiente\[0\]
+          (T0 242000) (T1 20000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (segmentos_mealy\[6\]
+          (T0 190000) (T1 72000) (TX 0)
+          (TC 10) (IG 0)
+        )
+        (segmentos_mealy\[5\]
+          (T0 115000) (T1 147000) (TX 0)
+          (TC 10) (IG 0)
+        )
+        (segmentos_mealy\[4\]
+          (T0 85000) (T1 177000) (TX 0)
+          (TC 18) (IG 0)
+        )
+        (segmentos_mealy\[3\]
+          (T0 125000) (T1 137000) (TX 0)
+          (TC 18) (IG 0)
+        )
+        (segmentos_mealy\[2\]
+          (T0 212000) (T1 50000) (TX 0)
+          (TC 10) (IG 0)
+        )
+        (segmentos_mealy\[1\]
+          (T0 142000) (T1 120000) (TX 0)
+          (TC 6) (IG 0)
+        )
+        (segmentos_mealy\[0\]
+          (T0 125000) (T1 137000) (TX 0)
+          (TC 18) (IG 0)
+        )
+        (led_error
+          (T0 252000) (T1 10000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (clutch_activo
+          (T0 162000) (T1 100000) (TX 0)
+          (TC 20) (IG 0)
+        )
+        (palanca_cambios\[1\]
+          (T0 162000) (T1 100000) (TX 0)
+          (TC 20) (IG 0)
+        )
+        (palanca_cambios\[0\]
+          (T0 222000) (T1 40000) (TX 0)
+          (TC 8) (IG 0)
+        )
+      )
+      (INSTANCE in_caja
+        (NET
+          (palanca_accionada\[1\]
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (palanca_accionada\[0\]
+            (T0 222000) (T1 40000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (output_palanca\[1\]
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (output_palanca\[0\]
+            (T0 222000) (T1 40000) (TX 0)
+            (TC 8) (IG 0)
+          )
+        )
+      )
+      (INSTANCE in_clutch
+        (NET
+          (clutch_accion
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (clutch_resultado
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+        )
+      )
+      (INSTANCE in_next_state
+        (NET
+          (posicion_de_palanca\[1\]
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (posicion_de_palanca\[0\]
+            (T0 222000) (T1 40000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (current_state\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (current_state\[2\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (current_state\[1\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (current_state\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (next_state\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (next_state\[2\]
+            (T0 137000) (T1 125000) (TX 0)
+            (TC 16) (IG 0)
+          )
+          (next_state\[1\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 30) (IG 0)
+          )
+          (next_state\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (q_gear\[2\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (q_gear\[1\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (q_gear\[0\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (q_neutral
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (palanca_arriba\[2\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (palanca_arriba\[1\]
+            (T0 75000) (T1 187000) (TX 0)
+            (TC 6) (IG 0)
+          )
+          (palanca_arriba\[0\]
+            (T0 147000) (T1 115000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (palanca_abajo\[2\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (palanca_abajo\[1\]
+            (T0 187000) (T1 75000) (TX 0)
+            (TC 6) (IG 0)
+          )
+          (palanca_abajo\[0\]
+            (T0 147000) (T1 115000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (c_estado_palanca\[2\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (c_estado_palanca\[1\]
+            (T0 137000) (T1 125000) (TX 0)
+            (TC 16) (IG 0)
+          )
+          (c_estado_palanca\[0\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 30) (IG 0)
+          )
+          (c_palanca_neutro
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+        )
+      )
+      (INSTANCE in_error_vista
+        (NET
+          (palanca\[1\]
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (palanca\[0\]
+            (T0 222000) (T1 40000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (clutch_resultado
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (shift_error
+            (T0 252000) (T1 10000) (TX 0)
+            (TC 2) (IG 0)
+          )
+        )
+      )
+      (INSTANCE in_decoder_mealy
+        (NET
+          (estado\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (estado\[2\]
+            (T0 137000) (T1 125000) (TX 0)
+            (TC 16) (IG 0)
+          )
+          (estado\[1\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 30) (IG 0)
+          )
+          (estado\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (segmentos\[6\]
+            (T0 190000) (T1 72000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (segmentos\[5\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (segmentos\[4\]
+            (T0 85000) (T1 177000) (TX 0)
+            (TC 18) (IG 0)
+          )
+          (segmentos\[3\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 18) (IG 0)
+          )
+          (segmentos\[2\]
+            (T0 212000) (T1 50000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (segmentos\[1\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 6) (IG 0)
+          )
+          (segmentos\[0\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 18) (IG 0)
+          )
+        )
+      )
+    )
+    (INSTANCE in_moore
+      (NET
+        (clk
+          (T0 132000) (T1 130000) (TX 0)
+          (TC 52) (IG 0)
+        )
+        (rst_n
+          (T0 17000) (T1 245000) (TX 0)
+          (TC 3) (IG 0)
+        )
+        (clutch_activo
+          (T0 162000) (T1 100000) (TX 0)
+          (TC 20) (IG 0)
+        )
+        (estado_siguiente\[3\]
+          (T0 107000) (T1 155000) (TX 0)
+          (TC 8) (IG 0)
+        )
+        (estado_siguiente\[2\]
+          (T0 137000) (T1 125000) (TX 0)
+          (TC 16) (IG 0)
+        )
+        (estado_siguiente\[1\]
+          (T0 125000) (T1 137000) (TX 0)
+          (TC 30) (IG 0)
+        )
+        (estado_siguiente\[0\]
+          (T0 242000) (T1 20000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (estado_actual\[3\]
+          (T0 107000) (T1 155000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (estado_actual\[2\]
+          (T0 142000) (T1 120000) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (estado_actual\[1\]
+          (T0 115000) (T1 147000) (TX 0)
+          (TC 10) (IG 0)
+        )
+        (estado_actual\[0\]
+          (T0 242000) (T1 20000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (segmentos_moore\[6\]
+          (T0 175000) (T1 87000) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (segmentos_moore\[5\]
+          (T0 115000) (T1 147000) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (segmentos_moore\[4\]
+          (T0 80000) (T1 182000) (TX 0)
+          (TC 6) (IG 0)
+        )
+        (segmentos_moore\[3\]
+          (T0 120000) (T1 142000) (TX 0)
+          (TC 6) (IG 0)
+        )
+        (segmentos_moore\[2\]
+          (T0 222000) (T1 40000) (TX 0)
+          (TC 4) (IG 0)
+        )
+        (segmentos_moore\[1\]
+          (T0 142000) (T1 120000) (TX 0)
+          (TC 2) (IG 0)
+        )
+        (segmentos_moore\[0\]
+          (T0 120000) (T1 142000) (TX 0)
+          (TC 6) (IG 0)
+        )
+      )
+      (INSTANCE in_estados
+        (NET
+          (clk
+            (T0 132000) (T1 130000) (TX 0)
+            (TC 52) (IG 0)
+          )
+          (rst_n
+            (T0 17000) (T1 245000) (TX 0)
+            (TC 3) (IG 0)
+          )
+          (clutch_resultado
+            (T0 162000) (T1 100000) (TX 0)
+            (TC 20) (IG 0)
+          )
+          (ns_in\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 8) (IG 0)
+          )
+          (ns_in\[2\]
+            (T0 137000) (T1 125000) (TX 0)
+            (TC 16) (IG 0)
+          )
+          (ns_in\[1\]
+            (T0 125000) (T1 137000) (TX 0)
+            (TC 30) (IG 0)
+          )
+          (ns_in\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (ns_out\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (ns_out\[2\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (ns_out\[1\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (ns_out\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+        )
+      )
+      (INSTANCE in_decoder_moore
+        (NET
+          (estado\[3\]
+            (T0 107000) (T1 155000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (estado\[2\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (estado\[1\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 10) (IG 0)
+          )
+          (estado\[0\]
+            (T0 242000) (T1 20000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (segmentos\[6\]
+            (T0 175000) (T1 87000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (segmentos\[5\]
+            (T0 115000) (T1 147000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (segmentos\[4\]
+            (T0 80000) (T1 182000) (TX 0)
+            (TC 6) (IG 0)
+          )
+          (segmentos\[3\]
+            (T0 120000) (T1 142000) (TX 0)
+            (TC 6) (IG 0)
+          )
+          (segmentos\[2\]
+            (T0 222000) (T1 40000) (TX 0)
+            (TC 4) (IG 0)
+          )
+          (segmentos\[1\]
+            (T0 142000) (T1 120000) (TX 0)
+            (TC 2) (IG 0)
+          )
+          (segmentos\[0\]
+            (T0 120000) (T1 142000) (TX 0)
+            (TC 6) (IG 0)
+          )
+        )
+      )
+    )
+  )
+)
+)
